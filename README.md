@@ -1,16 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# NOEMA — Notes App
 
-Currently, two official plugins are available:
+**A home for your thoughts.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+NOEMA is a responsive notes application built with React as part of the SYNTECXHUB Web Development Internship (Week 1).
 
-## React Compiler
+The app helps users capture ideas, organize notes, and manage their content through a simple, user-friendly interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Add notes with a title and content.
+- Edit existing notes.
+- Cancel editing without saving changes.
+- Delete notes with a confirmation message.
+- Save notes automatically using browser localStorage.
+- Keep notes after refreshing the page.
+- Automatically focus the title input when the app opens.
+- Responsive layout for desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## React Concepts Used
+
+- useState — manages notes, form inputs, and editing state.
+- useEffect — saves notes to localStorage and focuses the title input.
+- useRef — provides access to the title input element.
+- Array methods — map() and filter() for updating and deleting notes.
+
+## How to Run the Project
+
+1. Download or clone this repository.
+2. Open the project folder in a code editor.
+3. Install the dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL shown in the terminal.
+
+## Project Information
+
+- **Project:** NOEMA Notes App
+- **Internship:** SYNTECXHUB Web Development Internship
+- **Assignment:** Week 1 — Notes App
+- **Developer:** Lama Haidar
+
+## Note
+
+Notes are stored locally in the user's browser using localStorage. No external database or account is required.
